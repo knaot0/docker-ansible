@@ -1,4 +1,19 @@
 # docker-ansible
+
+## ディレクトリ構成
+```
+.
+├── README.md
+├── docker
+│   ├── ansible
+│   │   └── Dockerfile      ansibleのDocerfile
+│   └── target
+│       └── Dockerfile      targetのDockerfile
+├── docker-compose.yml      docker-composeファイル
+├── inventry.ini            hostsファイル
+└── playbook.yml            playbookファイル
+```
+
 ## 使い方
 1. Dockerコンテナの起動
 ```
@@ -81,3 +96,6 @@ ansible-playbook -i inventry.ini playbook.yml -vvv
 -step          : step実行 (y: 実行, n: スキップ, c: 全て実行) 
 --syntax-check : ymlファイルの構文チェック
 ```
+
+## 正規表現チェッカー
+http://www.rubular.com/
