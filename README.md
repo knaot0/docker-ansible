@@ -29,9 +29,9 @@ docker exec -it ansible
 ```
 4. target01, target02に対し、sshの接続確認
 ```
-ssh target01    (yesで接続)
+ssh target01    # yesで接続
 exit
-ssh target02    (yesで接続)
+ssh target02    # yesで接続
 exit
 ```
 5. target01, target02に対し、ansibleコマンドを実行
