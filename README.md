@@ -21,7 +21,7 @@ docker-compose up -d
 ```
 2. Ansibleコンテナに接続
 ```
-docker exec -it ansible
+docker exec -it ansible sh
 ```
 3. target01, target02に対し、sshの接続確認
 ```
